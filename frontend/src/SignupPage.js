@@ -47,14 +47,14 @@ function SignupPage() {
 
     const PasswordRequirementsTooltip = () => (
         <div className="password-requirements-tooltip">
-          <p>Password must include:
+          <p>Password must include:</p>
           <ul>
             <li>Be at least 8 characters long</li>
             <li>Contain at least one uppercase letter</li>
             <li>Contain at least one lowercase letter</li>
             <li>Contain at least one digit</li>
             <li>Contain at least one symbol</li>
-          </ul></p>
+          </ul>
         </div>
       );
 
